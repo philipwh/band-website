@@ -28,7 +28,7 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 8px solid #0175A1; }
+      border-bottom: 8px solid #a5e8ef; }
       .body .tour-body-wrapper .tour-body .tour-container:not(:last-child) {
         margin-bottom: 20px; }
       .body .tour-body-wrapper .tour-body .tour-container div:first-child {
