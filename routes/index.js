@@ -20,8 +20,8 @@ router.get('/', (req, res) => {
         callback(null, response.object.metadata)
       })
     },
-    showDates(callback) {
-      bucket.getObjects({ type: 'show-dates' }).then(response => {
+    tourDates(callback) {
+      bucket.getObjects({ type: 'tour-dates' }).then(response => {
         callback(null, response.objects)
       })
     }
@@ -37,8 +37,8 @@ router.get('/', (req, res) => {
       bandcamp: results.siteSettings.bandcamp
     }
     res.locals.socials = socials
-    res.locals.showDates = _.sortBy(results.showDates, showDate => (
-      showDate.metadata.date
+    res.locals.tourDates = _.sortBy(results.tourDates, tourDate => (
+      tourDate.metadata.date
     )).slice(0,3)
     res.locals.title = results.siteSettings.band_name
 
@@ -46,15 +46,15 @@ router.get('/', (req, res) => {
   })
 })
 
-router.get('/shows', async (req, res) => {
+router.get('/tour', async (req, res) => {
   async.series({
     siteSettings(callback) {
       bucket.getObject({ slug: 'site-settings' }).then(response => {
         callback(null, response.object.metadata)
       })
     },
-    showDates(callback) {
-      bucket.getObjects({ type: 'show-dates' }).then(response => {
+    tourDates(callback) {
+      bucket.getObjects({ type: 'tour-dates' }).then(response => {
         callback(null, response.objects)
       })
     }
@@ -69,12 +69,12 @@ router.get('/shows', async (req, res) => {
       bandcamp: results.siteSettings.bandcamp
     }
     res.locals.socials = socials
-    res.locals.showDates = _.sortBy(results.showDates, showDate => (
-      showDate.metadata.date
+    res.locals.tourDates = _.sortBy(results.tourDates, tourDate => (
+      tourDate.metadata.date
     ))
     res.locals.title = results.siteSettings.band_name + ' | Show Dates'
 
-    res.render('show.handlebars')
+    res.render('tour.handlebars')
   })
 })
 
