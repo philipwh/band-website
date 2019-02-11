@@ -33,7 +33,7 @@ app.engine('handlebars', exphbs({
         },
         formatDate(date) {
             return moment(date).format('MMMM Do[,] YYYY')
-        } 
+        }
     }
 }));
 app.set('views', path.join(__dirname, 'views'));
