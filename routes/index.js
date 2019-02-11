@@ -29,7 +29,7 @@ router.get('/', (req, res) => {
     res.locals.settings = results.siteSettings
     res.locals.homepage = results.homePage
     const socials = {
-      twitter: results.siteSettings.twitter,
+      facebook: results.siteSettings.facebook,
       instagram: results.siteSettings.instagram,
       youtube: results.siteSettings.youtube,
       apple: results.siteSettings.apple_music,
@@ -61,7 +61,7 @@ router.get('/tour', async (req, res) => {
   }, (err, results) => {
     res.locals.settings = results.siteSettings
     const socials = {
-      twitter: results.siteSettings.twitter,
+      facebook: results.siteSettings.facebook,
       instagram: results.siteSettings.instagram,
       youtube: results.siteSettings.youtube,
       apple: results.siteSettings.apple_music,
@@ -93,7 +93,7 @@ router.get('/photo-gallery', (req, res) => {
   }, (err, results) => {
       res.locals.settings = results.siteSettings
       const socials = {
-        twitter: results.siteSettings.twitter,
+        facebook: results.siteSettings.facebook,
         instagram: results.siteSettings.instagram,
         youtube: results.siteSettings.youtube,
         apple: results.siteSettings.apple_music,
@@ -122,7 +122,7 @@ router.get('/photo-gallery/:slug', (req, res) => {
   }, (err, results) => {
       res.locals.settings = results.siteSettings
       const socials = {
-        twitter: results.siteSettings.twitter,
+        facebook: results.siteSettings.facebook,
         instagram: results.siteSettings.instagram,
         youtube: results.siteSettings.youtube,
         apple: results.siteSettings.apple_music,
@@ -152,7 +152,7 @@ router.get('/videos', (req, res) => {
   }, (err, results) => {
     res.locals.settings = results.siteSettings
     const socials = {
-      twitter: results.siteSettings.twitter,
+      facebook: results.siteSettings.facebook,
       instagram: results.siteSettings.instagram,
       youtube: results.siteSettings.youtube,
       apple: results.siteSettings.apple_music,
@@ -176,7 +176,7 @@ router.get('/bio', (req, res) => {
   }, (err, results) => {
     res.locals.settings = results.siteSettings
     const socials = {
-      twitter: results.siteSettings.twitter,
+      facebook: results.siteSettings.facebook,
       instagram: results.siteSettings.instagram,
       youtube: results.siteSettings.youtube,
       apple: results.siteSettings.apple_music,
