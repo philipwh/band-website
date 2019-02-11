@@ -188,7 +188,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 99;
-  border-bottom: 10px solid #0175A1; }
+  border-bottom: 10px solid ##28fcdf; }
   header .mobile-menu {
     position: fixed;
     top: 109px;
