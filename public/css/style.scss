@@ -263,14 +263,14 @@ header {
     @media (min-width: 767px) {
       display: none;
     }
-    form {
+    /*form {
       margin-top: 20px;
       flex-direction: column;
       input[name="email"] {
         margin-bottom: 20px !important
       }
 
-    }
+    }*/
     position: fixed;
     top: 109px;
     width: 100%;
@@ -431,7 +431,7 @@ footer {
   }
 }
 
-.contact-form {
+/*.contact-form {
   form {
     display: inline-flex;
     align-items: center;
@@ -461,4 +461,4 @@ footer {
       }
     }
   }
-}
+}*/
