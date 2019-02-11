@@ -32,9 +32,7 @@ router.get('/', (req, res) => {
       facebook: results.siteSettings.facebook,
       instagram: results.siteSettings.instagram,
       youtube: results.siteSettings.youtube,
-      apple: results.siteSettings.apple_music,
       spotify: results.siteSettings.spotify,
-      bandcamp: results.siteSettings.bandcamp
     }
     res.locals.socials = socials
     res.locals.tourDates = _.sortBy(results.tourDates, tourDate => (
@@ -64,9 +62,7 @@ router.get('/tour', async (req, res) => {
       facebook: results.siteSettings.facebook,
       instagram: results.siteSettings.instagram,
       youtube: results.siteSettings.youtube,
-      apple: results.siteSettings.apple_music,
       spotify: results.siteSettings.spotify,
-      bandcamp: results.siteSettings.bandcamp
     }
     res.locals.socials = socials
     res.locals.tourDates = _.sortBy(results.tourDates, tourDate => (
@@ -96,9 +92,7 @@ router.get('/photo-gallery', (req, res) => {
         facebook: results.siteSettings.facebook,
         instagram: results.siteSettings.instagram,
         youtube: results.siteSettings.youtube,
-        apple: results.siteSettings.apple_music,
         spotify: results.siteSettings.spotify,
-        bandcamp: results.siteSettings.bandcamp
       }
       res.locals.socials = socials
       res.locals.title = results.siteSettings.band_name + ' | Photo Gallery'
@@ -125,9 +119,7 @@ router.get('/photo-gallery/:slug', (req, res) => {
         facebook: results.siteSettings.facebook,
         instagram: results.siteSettings.instagram,
         youtube: results.siteSettings.youtube,
-        apple: results.siteSettings.apple_music,
         spotify: results.siteSettings.spotify,
-        bandcamp: results.siteSettings.bandcamp
       }
       res.locals.socials = socials
       res.locals.title = results.siteSettings.band_name + ' | ' + results.album.title
@@ -155,9 +147,7 @@ router.get('/videos', (req, res) => {
       facebook: results.siteSettings.facebook,
       instagram: results.siteSettings.instagram,
       youtube: results.siteSettings.youtube,
-      apple: results.siteSettings.apple_music,
       spotify: results.siteSettings.spotify,
-      bandcamp: results.siteSettings.bandcamp
     }
     res.locals.socials = socials
     res.locals.title = results.siteSettings.band_name + ' | Videos'
@@ -179,9 +169,7 @@ router.get('/bio', (req, res) => {
       facebook: results.siteSettings.facebook,
       instagram: results.siteSettings.instagram,
       youtube: results.siteSettings.youtube,
-      apple: results.siteSettings.apple_music,
       spotify: results.siteSettings.spotify,
-      bandcamp: results.siteSettings.bandcamp
     }
     res.locals.socials = socials
     res.locals.title = results.siteSettings.band_name + ' | Bio'
