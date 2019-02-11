@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 @import url('https://fonts.googleapis.com/css?family=Nixie+One');
 
-$lightBlue: ##28fcdf;
+$lightBlue: #28fcdf;
 $orange: #EE7E03;
 $darkBlue: #7CFC00;
 
@@ -391,7 +391,7 @@ header {
 footer {
   @extend .contact-form;
   @extend .nav-links;
-  background: $darkBlue;
+  background: $7CFC00;
   color: #fff;
   padding: 50px;
   text-align: center;
@@ -404,14 +404,14 @@ footer {
       margin-right: 15px
     }
   }
-  form {
+/*  form {
     @media (max-width: 767px) {
       flex-direction: column;
       input[name="email"] {
         margin-bottom: 20px !important
       }
     }
-  }
+  }*/
 }
 
 .nav-links {
