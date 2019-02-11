@@ -20,8 +20,8 @@ router.get('/', (req, res) => {
         callback(null, response.object.metadata)
       })
     },
-    tourDates(callback) {
-      bucket.getObjects({ type: 'tour-dates' }).then(response => {
+    showDates(callback) {
+      bucket.getObjects({ type: 'show-dates' }).then(response => {
         callback(null, response.objects)
       })
     }
@@ -37,8 +37,8 @@ router.get('/', (req, res) => {
       bandcamp: results.siteSettings.bandcamp
     }
     res.locals.socials = socials
-    res.locals.tourDates = _.sortBy(results.tourDates, tourDate => (
-      tourDate.metadata.date
+    res.locals.showDates = _.sortBy(results.showDates, showDate => (
+      showDate.metadata.date
     )).slice(0,3)
     res.locals.title = results.siteSettings.band_name
 
@@ -46,15 +46,15 @@ router.get('/', (req, res) => {
   })
 })
 
-router.get('/tour', async (req, res) => {
+router.get('/shows', async (req, res) => {
   async.series({
     siteSettings(callback) {
       bucket.getObject({ slug: 'site-settings' }).then(response => {
         callback(null, response.object.metadata)
       })
     },
-    tourDates(callback) {
-      bucket.getObjects({ type: 'tour-dates' }).then(response => {
+    showDates(callback) {
+      bucket.getObjects({ type: 'show-dates' }).then(response => {
         callback(null, response.objects)
       })
     }
@@ -69,12 +69,12 @@ router.get('/tour', async (req, res) => {
       bandcamp: results.siteSettings.bandcamp
     }
     res.locals.socials = socials
-    res.locals.tourDates = _.sortBy(results.tourDates, tourDate => (
-      tourDate.metadata.date
+    res.locals.showDates = _.sortBy(results.showDates, showDate => (
+      showDate.metadata.date
     ))
-    res.locals.title = results.siteSettings.band_name + ' | Tour Dates'
+    res.locals.title = results.siteSettings.band_name + ' | Show Dates'
 
-    res.render('tour.handlebars')
+    res.render('show.handlebars')
   })
 })
 
@@ -189,7 +189,7 @@ router.get('/bio', (req, res) => {
   })
 })
 
-router.post('/signup', (req, res) => {
+/*router.post('/signup', (req, res) => {
   const email = req.body.email
   axios.post(`https://${process.env.MAILCHIMP_DC}.api.mailchimp.com/3.0/lists/${process.env.MAILCHIMP_LIST_ID}/members/`, {
     auth: {
@@ -206,5 +206,5 @@ router.post('/signup', (req, res) => {
     res.redirect('/?subscribed=false')
   })
 })
-
+*/
 module.exports = router;
