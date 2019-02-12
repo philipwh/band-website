@@ -317,7 +317,7 @@ header {
 
   .header-top {
     background: $lightBlue;
-    color: #fff;
+    color: #303030;
     padding: 15px 50px;
     line-height: 1.2;
     font-size: 2rem;
@@ -392,7 +392,7 @@ footer {
   @extend .contact-form;
   @extend .nav-links;
   background: $7CFC00;
-  color: #fff;
+  color: #303030;
   padding: 50px;
   text-align: center;
   div {
