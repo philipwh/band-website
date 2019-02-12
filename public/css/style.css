@@ -297,15 +297,15 @@ footer {
     */
 
 .nav-links a, .body .tour-body-wrapper .tour-body .tour-container a, .body .gallery-wrapper a, .body .content-wrapper .box a, header a, footer a, .nav-links #dropdown-toggle, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle, .body .gallery-wrapper #dropdown-toggle, .body .content-wrapper .box #dropdown-toggle, header #dropdown-toggle, footer #dropdown-toggle {
-  color: #000000;
+  color: #00EEEE;
   text-decoration: none;
   cursor: pointer; }
   .nav-links a:hover, .body .tour-body-wrapper .tour-body .tour-container a:hover, .body .gallery-wrapper a:hover, .body .content-wrapper .box a:hover, header a:hover, footer a:hover, .nav-links #dropdown-toggle:hover, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle:hover, .body .gallery-wrapper #dropdown-toggle:hover, .body .content-wrapper .box #dropdown-toggle:hover, header #dropdown-toggle:hover, footer #dropdown-toggle:hover {
-    color: #00EEEE; }
+    color: #000000; }
   .nav-links a:active, .body .tour-body-wrapper .tour-body .tour-container a:active, .body .gallery-wrapper a:active, .body .content-wrapper .box a:active, header a:active, footer a:active, .nav-links #dropdown-toggle:active, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle:active, .body .gallery-wrapper #dropdown-toggle:active, .body .content-wrapper .box #dropdown-toggle:active, header #dropdown-toggle:active, footer #dropdown-toggle:active {
-    color: #00EEEE; }
+    color: #000000; }
   .nav-links a:focus, .body .tour-body-wrapper .tour-body .tour-container a:focus, .body .gallery-wrapper a:focus, .body .content-wrapper .box a:focus, header a:focus, footer a:focus, .nav-links #dropdown-toggle:focus, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle:focus, .body .gallery-wrapper #dropdown-toggle:focus, .body .content-wrapper .box #dropdown-toggle:focus, header #dropdown-toggle:focus, footer #dropdown-toggle:focus {
-    color: #00EEEE; }
+    color: #000000; }
 
 /*
 .contact-form form, header form, footer form {
