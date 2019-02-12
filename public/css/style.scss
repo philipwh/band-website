@@ -254,7 +254,7 @@ body {
 
 header {
   @extend .nav-links;
-  @extend .contact-form;
+  //@extend .contact-form;
   width: 100%;
   position: fixed;
   z-index: 99;
@@ -314,6 +314,8 @@ header {
       }
     }
   }
+
+
 
   .header-top {
     background: $lightBlue;
