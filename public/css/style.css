@@ -28,7 +28,7 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 8px solid #a5e8ef; }
+      border-bottom: 8px solid #28fcdf; }
       .body .tour-body-wrapper .tour-body .tour-container:not(:last-child) {
         margin-bottom: 20px; }
       .body .tour-body-wrapper .tour-body .tour-container div:first-child {
@@ -36,7 +36,7 @@ body {
         .body .tour-body-wrapper .tour-body .tour-container div:first-child h1 {
           color: #fff;
           font-family: 'Nixie One';
-          text-shadow: 1px 1px #03adee; }
+          text-shadow: 1px 1px #28fcdf; }
       .body .tour-body-wrapper .tour-body .tour-container a {
         font-family: 'Nixie One';
         border: 2px solid #fff;
