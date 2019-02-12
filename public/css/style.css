@@ -43,7 +43,7 @@ body {
         padding: 12px;
         white-space: nowrap; }
         .body .tour-body-wrapper .tour-body .tour-container a:hover {
-          border-color: #EE7E03; }
+          border-color: #8B008B; }
       @media (max-width: 767px) {
         .body .tour-body-wrapper .tour-body .tour-container {
           flex-direction: column;
@@ -135,7 +135,7 @@ body {
             margin-bottom: 35px; } }
         .body .banner-image-container .cta a:hover {
           background: rgba(48, 48, 48, 0.3);
-          color: #EE7E03;
+          color: #8B008B;
           border-color: #EE7E03; }
         .body .banner-image-container .cta a:first-child {
           margin-right: 30px; }
@@ -188,7 +188,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 99;
-  border-bottom: 50px solid ##28fcdf; }
+  border-bottom: 5px solid ##28fcdf; }
   header .mobile-menu {
     position: fixed;
     top: 109px;
@@ -301,11 +301,11 @@ footer {
   text-decoration: none;
   cursor: pointer; }
   .nav-links a:hover, .body .tour-body-wrapper .tour-body .tour-container a:hover, .body .gallery-wrapper a:hover, .body .content-wrapper .box a:hover, header a:hover, footer a:hover, .nav-links #dropdown-toggle:hover, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle:hover, .body .gallery-wrapper #dropdown-toggle:hover, .body .content-wrapper .box #dropdown-toggle:hover, header #dropdown-toggle:hover, footer #dropdown-toggle:hover {
-    color: #EE7E03; }
+    color: #8B008B; }
   .nav-links a:active, .body .tour-body-wrapper .tour-body .tour-container a:active, .body .gallery-wrapper a:active, .body .content-wrapper .box a:active, header a:active, footer a:active, .nav-links #dropdown-toggle:active, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle:active, .body .gallery-wrapper #dropdown-toggle:active, .body .content-wrapper .box #dropdown-toggle:active, header #dropdown-toggle:active, footer #dropdown-toggle:active {
-    color: #EE7E03; }
+    color: #8B008B; }
   .nav-links a:focus, .body .tour-body-wrapper .tour-body .tour-container a:focus, .body .gallery-wrapper a:focus, .body .content-wrapper .box a:focus, header a:focus, footer a:focus, .nav-links #dropdown-toggle:focus, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle:focus, .body .gallery-wrapper #dropdown-toggle:focus, .body .content-wrapper .box #dropdown-toggle:focus, header #dropdown-toggle:focus, footer #dropdown-toggle:focus {
-    color: #EE7E03; }
+    color: #8B008B; }
 
 /*
 .contact-form form, header form, footer form {
