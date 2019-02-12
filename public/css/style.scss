@@ -4,6 +4,7 @@
 $lightBlue: #00EEEE;
 $orange: #303030;
 $darkBlue: #28fcdf;
+$blackish: #1E1E1E;
 
 $purpleRain: #694489;
 $indigo: #2E0854;
@@ -260,7 +261,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 99;
-  border-bottom: 10px solid $darkBlue;
+  border-bottom: 10px solid $blackish;
   .mobile-menu {
     @media (min-width: 767px) {
       display: none;
