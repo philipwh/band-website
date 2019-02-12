@@ -28,7 +28,7 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 8px solid #694489; }
+      border-bottom: 8px solid #2E0854; }
       .body .tour-body-wrapper .tour-body .tour-container:not(:last-child) {
         margin-bottom: 20px; }
       .body .tour-body-wrapper .tour-body .tour-container div:first-child {
@@ -56,7 +56,7 @@ body {
     .body .album-wrapper h1 {
       font-family: 'Nixie One';
       color: #fff;
-      text-shadow: 1px 1px ##694489;
+      text-shadow: 1px 1px ##2E0854;
       font-size: 2rem; }
     .body .album-wrapper h4 {
       color: rgba(255, 255, 255, 0.3); }
@@ -135,7 +135,7 @@ body {
             margin-bottom: 35px; } }
         .body .banner-image-container .cta a:hover {
           background: rgba(48, 48, 48, 0.3);
-          color: #694489;
+          color: #00EEEE;
           border-color: #303030; }
         .body .banner-image-container .cta a:first-child {
           margin-right: 30px; }
@@ -152,7 +152,7 @@ body {
     .body .content-wrapper .box {
       background: #303030; }
       .body .content-wrapper .box h1 {
-        background: #694489;
+        background: #2E0854;
         margin: 0;
         color: #fff;
         font-family: 'Nixie One';
@@ -188,7 +188,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 99;
-  border-bottom: 5px solid ##694489; }
+  border-bottom: 5px solid ##2E0854; }
   header .mobile-menu {
     position: fixed;
     top: 109px;
@@ -229,7 +229,7 @@ header {
       header .mobile-menu[data-state="open"] a, header .mobile-menu[data-state="open"] div {
         opacity: 1; }
   header .header-top {
-    background: #694489;
+    background: #2E0854;
     color: #fff;
     padding: 15px 50px;
     line-height: 1.2;
@@ -279,7 +279,7 @@ header {
         display: none; } }
 
 footer {
-  background: #694489;
+  background: #2E0854;
   color: #fff;
   padding: 50px;
   text-align: center; }
