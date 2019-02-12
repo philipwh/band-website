@@ -28,7 +28,7 @@ body {
       display: flex;
       justify-content: space-between;
       align-items: center;
-      border-bottom: 8px solid #28fcdf; }
+      border-bottom: 8px solid #694489; }
       .body .tour-body-wrapper .tour-body .tour-container:not(:last-child) {
         margin-bottom: 20px; }
       .body .tour-body-wrapper .tour-body .tour-container div:first-child {
@@ -39,7 +39,7 @@ body {
           text-shadow: 1px 1px #28fcdf; }
       .body .tour-body-wrapper .tour-body .tour-container a {
         font-family: 'Nixie One';
-        border: 2px solid #8B008B;
+        border: 2px solid #00EEEE;
         padding: 12px;
         white-space: nowrap; }
         .body .tour-body-wrapper .tour-body .tour-container a:hover {
@@ -56,7 +56,7 @@ body {
     .body .album-wrapper h1 {
       font-family: 'Nixie One';
       color: #fff;
-      text-shadow: 1px 1px ##28fcdf;
+      text-shadow: 1px 1px ##694489;
       font-size: 2rem; }
     .body .album-wrapper h4 {
       color: rgba(255, 255, 255, 0.3); }
@@ -135,7 +135,7 @@ body {
             margin-bottom: 35px; } }
         .body .banner-image-container .cta a:hover {
           background: rgba(48, 48, 48, 0.3);
-          color: #28fcdf;
+          color: #694489;
           border-color: #303030; }
         .body .banner-image-container .cta a:first-child {
           margin-right: 30px; }
@@ -152,7 +152,7 @@ body {
     .body .content-wrapper .box {
       background: #303030; }
       .body .content-wrapper .box h1 {
-        background: #28fcdf;
+        background: #694489;
         margin: 0;
         color: #fff;
         font-family: 'Nixie One';
@@ -188,7 +188,7 @@ header {
   width: 100%;
   position: fixed;
   z-index: 99;
-  border-bottom: 5px solid ##28fcdf; }
+  border-bottom: 5px solid ##694489; }
   header .mobile-menu {
     position: fixed;
     top: 109px;
@@ -229,7 +229,7 @@ header {
       header .mobile-menu[data-state="open"] a, header .mobile-menu[data-state="open"] div {
         opacity: 1; }
   header .header-top {
-    background: #28fcdf;
+    background: #694489;
     color: #fff;
     padding: 15px 50px;
     line-height: 1.2;
@@ -279,7 +279,7 @@ header {
         display: none; } }
 
 footer {
-  background: #28fcdf;
+  background: #694489;
   color: #fff;
   padding: 50px;
   text-align: center; }
@@ -297,15 +297,15 @@ footer {
     */
 
 .nav-links a, .body .tour-body-wrapper .tour-body .tour-container a, .body .gallery-wrapper a, .body .content-wrapper .box a, header a, footer a, .nav-links #dropdown-toggle, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle, .body .gallery-wrapper #dropdown-toggle, .body .content-wrapper .box #dropdown-toggle, header #dropdown-toggle, footer #dropdown-toggle {
-  color: #8B008B;
+  color: #000000;
   text-decoration: none;
   cursor: pointer; }
   .nav-links a:hover, .body .tour-body-wrapper .tour-body .tour-container a:hover, .body .gallery-wrapper a:hover, .body .content-wrapper .box a:hover, header a:hover, footer a:hover, .nav-links #dropdown-toggle:hover, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle:hover, .body .gallery-wrapper #dropdown-toggle:hover, .body .content-wrapper .box #dropdown-toggle:hover, header #dropdown-toggle:hover, footer #dropdown-toggle:hover {
-    color: #8B008B; }
+    color: #00EEEE; }
   .nav-links a:active, .body .tour-body-wrapper .tour-body .tour-container a:active, .body .gallery-wrapper a:active, .body .content-wrapper .box a:active, header a:active, footer a:active, .nav-links #dropdown-toggle:active, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle:active, .body .gallery-wrapper #dropdown-toggle:active, .body .content-wrapper .box #dropdown-toggle:active, header #dropdown-toggle:active, footer #dropdown-toggle:active {
-    color: #8B008B; }
+    color: #00EEEE; }
   .nav-links a:focus, .body .tour-body-wrapper .tour-body .tour-container a:focus, .body .gallery-wrapper a:focus, .body .content-wrapper .box a:focus, header a:focus, footer a:focus, .nav-links #dropdown-toggle:focus, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle:focus, .body .gallery-wrapper #dropdown-toggle:focus, .body .content-wrapper .box #dropdown-toggle:focus, header #dropdown-toggle:focus, footer #dropdown-toggle:focus {
-    color: #8B008B; }
+    color: #00EEEE; }
 
 /*
 .contact-form form, header form, footer form {
