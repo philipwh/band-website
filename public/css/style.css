@@ -297,7 +297,7 @@ footer {
     */
 
 .nav-links a, .body .tour-body-wrapper .tour-body .tour-container a, .body .gallery-wrapper a, .body .content-wrapper .box a, header a, footer a, .nav-links #dropdown-toggle, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle, .body .gallery-wrapper #dropdown-toggle, .body .content-wrapper .box #dropdown-toggle, header #dropdown-toggle, footer #dropdown-toggle {
-  color: #000000;
+  color: #8B008B;
   text-decoration: none;
   cursor: pointer; }
   .nav-links a:hover, .body .tour-body-wrapper .tour-body .tour-container a:hover, .body .gallery-wrapper a:hover, .body .content-wrapper .box a:hover, header a:hover, footer a:hover, .nav-links #dropdown-toggle:hover, .body .tour-body-wrapper .tour-body .tour-container #dropdown-toggle:hover, .body .gallery-wrapper #dropdown-toggle:hover, .body .content-wrapper .box #dropdown-toggle:hover, header #dropdown-toggle:hover, footer #dropdown-toggle:hover {
